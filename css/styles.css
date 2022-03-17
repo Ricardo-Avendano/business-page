@@ -1,0 +1,202 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: tomato;
+}
+
+hr {
+  border-color: #B7CADB;
+  border-width: 6.7px;
+  border-style: dotted none none;
+  width: 3.5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Angela's solution
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+*/
+
+p {
+  font-weight: 600;
+  line-height: 2;
+  font-size: 17px;
+  color: #40514E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: relative;
+  left: 350px;
+}
+
+.bottom-cloud {
+  position: relative;
+  bottom: 300px;
+  right: 90px;
+}
+
+.mountain {
+  position: relative;
+  right: 60px;
+}
+
+.ricardo-picture {
+   position: relative;
+   border-radius: 50%;
+   top: 90px;
+   margin-bottom: 100px;
+}
+
+.introduction {
+  position: relative;
+  left: 35%;
+  width: 30%;
+}
+
+.top-container {
+   background-color: #eaf6f6;
+   padding-top: 50px;
+}
+
+.middle-container {
+  padding-bottom: 100px;
+}
+
+.skills {
+  margin-bottom: 150px; /* this margin keeps the last hr rule from wrapping around the groceries icon. */
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.coding-icon-and-attribution {
+  float: left; /* moves element to the left of its container. */
+  width: 180px;
+  height: 230px;
+  margin-right: 40px;
+}
+
+.repair-icon-and-attribution {
+  float: right; /* moves element to the right of its container. */
+  width: 180px;
+  height: 230px;
+  margin-left: 40px;
+}
+
+.coding-icon {
+  position: relative; /* position relative to parent container */
+  width: 100%; /* % width of parent container. */
+}
+
+.repair-icon {
+  position: relative;
+  width: 100%;
+}
+
+.icon-attribution {
+  position: relative;
+  left: 17px;
+  bottom: 25px;
+  width: 80%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 180px;
+}
+
+.footer-link {
+  position: relative;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #11999E;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.trademark{
+  position: relative;
+  color: #EAF6F6;
+  font-weight: bold;
+  font-size: 14px;
+  top: 80px;
+}
